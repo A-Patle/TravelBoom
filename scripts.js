@@ -50,12 +50,12 @@ function showTempleRecommendations() {
     const templeRecommendations = [
         {
             name: 'Ancient Temple 1',
-            image: 'path_to_image3.jpg',
+            image: 'image/temple1.jpg',
             description: 'Description of Ancient Temple 1'
         },
         {
             name: 'Majestic Temple 2',
-            image: 'path_to_image4.jpg',
+            image: 'image/temple2.jpg',
             description: 'Description of Majestic Temple 2'
         }
     ];
@@ -67,12 +67,12 @@ function showCountryRecommendations() {
     const countryRecommendations = [
         {
             name: 'Beautiful Country 1',
-            image: 'path_to_image5.jpg',
+            image: 'image/country1.jpg',
             description: 'Description of Beautiful Country 1'
         },
         {
             name: 'Amazing Country 2',
-            image: 'path_to_image6.jpg',
+            image: 'image/country2.jpg',
             description: 'Description of Amazing Country 2'
         }
     ];

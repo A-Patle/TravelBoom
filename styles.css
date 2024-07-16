@@ -153,3 +153,15 @@ nav ul li a {
 .center-Content {
     margin-left: 120px;
 }
+
+.recommendation img {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.recommendation {
+    margin-bottom: 20px;
+    text-align: center;
+}

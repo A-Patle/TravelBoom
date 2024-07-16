@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+}
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+nav .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+nav .logo span {
+    color: white;
+    font-size: 1.5rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.content {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.background-image {
+    background-image: url('image/Dubai_Marina_Skyline.jpg');
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%, -50%);
+    text-align: left;
+}
+.overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.overlay p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+form#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+form#contact-form input,
+form#contact-form textarea {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 400px;
+}
+form#contact-form button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.social-media {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+.social-media a {
+    margin: 10px 0;
+}
+.social-media a img {
+    width: 40px;
+}
+
+.center-Content{
+    margin-left: 400px;
+}
